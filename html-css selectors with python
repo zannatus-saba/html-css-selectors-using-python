@@ -1,0 +1,56 @@
+
+
+$$('table.wikitable:nth-child(19)>tbody>tr>th')
+
+(15) [th, th, th, th, th, th, th, th, th, th, th, th, th, th, th]
+
+$$('table.wikitable:nth-child(19)>tbody>tr>td:nth-child(2)')
+
+(15) [td, td, td, td, td, td, td, td, td, td, td, td, td, td, td]
+
+$$('table.wikitable:nth-child(19)>tbody>tr>td:nth-child(3)')
+
+(15) [td, td, td, td, td, td, td, td, td, td, td, td, td, td, td]
+$$('table.wikitable:nth-child(19)>tbody>tr>td:nth-child(4)')
+
+(15) [td, td, td, td, td, td, td, td, td, td, td, td, td, td, td]
+
+$$('table.wikitable:nth-child(19)>tbody>tr>td:nth-child(5)')
+
+(15) [td, td, td, td, td, td, td, td, td, td, td, td, td, td, td]
+
+$$('table.wikitable:nth-child(19)>tbody>tr>td:nth-child(6)')
+
+(15) [td, td, td, td, td, td, td, td, td, td, td, td, td, td, td]
+
+$$('table.wikitable:nth-child(19)>tbody>tr>td:nth-child(7)')
+
+(15) [td, td, td, td, td, td, td, td, td, td, td, td, td, td, td]
+
+$$('table.wikitable:nth-child(19)>tbody>tr>td:nth-child(8)')
+
+(15) [td, td, td, td, td, td, td, td, td, td, td, td, td, td, td]
+
+$$('table.wikitable:nth-child(19)>tbody>tr>td:nth-child(9)')
+
+(15) [td, td, td, td, td, td, td, td, td, td, td, td, td, td, td]
+
+##Save each CSS selector as a string in Python using the following names for the variables
+
+sel_reg_grp='table.wikitable:nth-child(19)>tbody>tr>th'
+
+sel_1990='table.wikitable:nth-child(19)>tbody>tr>td:nth-child(2)'
+
+sel_2000='table.wikitable:nth-child(19)>tbody>tr>td:nth-child(3)'
+
+sel_2010='table.wikitable:nth-child(19)>tbody>tr>td:nth-child(4)'
+
+sel_2015='table.wikitable:nth-child(19)>tbody>tr>td:nth-child(5)'
+
+sel_2018='table.wikitable:nth-child(19)>tbody>tr>td:nth-child(6)'
+
+sel_2019='table.wikitable:nth-child(19)>tbody>tr>td:nth-child(7)'
+
+sel_2020='table.wikitable:nth-child(19)>tbody>tr>td:nth-child(8)'
+
+sel_2021='table.wikitable:nth-child(19)>tbody>tr>td:nth-child(9)'
